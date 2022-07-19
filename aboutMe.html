@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+</head>
+
+<body>
+    <div class=" flex w-auto h-screen">
+        <nav class="list absolute justify-center items-center bg-[#293462] text-xl w-1/2 text-white sm:flex-col sm:w-1/3 lg:flex lg:relative lg:text-2xl">
+            <li class=" flex-col justify-center align-middle items-center h-screen pr-6 py-28 list-none">
+                <ul class=" my-2 py-4 ml-2 cursor-pointer items-center flex hover:text-green-200 active:text-blue-500"> <a href="index.html"><img class=" inline bg-white mx-2 h-10 rounded-xl" src="home.png" alt="" srcset="">Home</a></ul>
+                <ul class=" my-2 py-4 ml-2 cursor-pointer items-center flex hover:text-green-200 active:text-blue-500"><a href="aboutMe.html"><img class=" inline bg-white mx-2 h-10 rounded-xl" src="aboutMe.png" alt="">About Me</a></ul>
+                <ul class=" my-2 py-4 ml-2 cursor-pointer items-center flex hover:text-green-200 active:text-blue-500"><a href="portfolio.html"><img class=" inline bg-white mx-2 h-10 rounded-xl" src="projects.png" alt="">My Projects</a></ul>
+                <ul class=" my-2 py-4 ml-2 cursor-pointer items-center flex hover:text-green-200 active:text-blue-500"><a href="contact.html"><img class=" inline bg-white mx-2 h-10 rounded-xl" src="contactMe.png" alt="">Contact Me</a></ul>
+            </li>
+        </nav>
+        <section class="about flex-col justify-center items-center bg-gradient-to-r from-yellow-300 to-[#FEB139] w-full h-screen pt-4 sm:flex sm:flex-row sm:p-0 lg:px-12 lg:pr-0">
+            <div class="hamburger top-0 left-0 sm:mt-[-495px] lg:hidden">
+                <img src="menu.png" alt="" srcset="" class="menu w-4 h-4 cursor-pointer absolute ml-[3%] sm:ml-3">
+                <img src="close.png" alt="" srcset="" class="close w-4 h-4 cursor-pointer absolute ml-[42%] sm:ml-[29%]">
+            </div>
+            <div class=" mx-6 mt-2 mb-12">
+                <h1 class=" text-3xl text-center text-[#FEB139]-contrast mb-4" style="font-family: 'Poppins', sans-serif;">About Me</h1>
+                <p class=" font-medium text-justify text-lime-200-contrast" style="font-family: 'Poppins', sans-serif;">
+                    I am a second year undergrad pursuing Computer Science at Mahatma Gandhi Mission's College of Engineering, Nanded. I am currently studying Python and web development. In the past I have learnt Java with OOPs concepts.
+                </p>
+            </div>
+            <div class=" bg-yellow-100 rounded-l-full sm:h-screen sm:w-[212%] lg:h-screen ">
+                <div class=" font-mono text-3xl text-center  ml-4 sm:pt-28 lg:pt-28">
+                    <h2 class=" text-[#FEB139]-contrast">My Skills</h2>
+                    <div class="flex justify-center items-center mx-2">
+                        <img class=" w-[12%] h-[12%] m-4 sm:w-16 sm:h-24" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/300px-HTML5_logo_resized.svg.png" alt="img" srcset="">
+                        <img class=" w-[12%] h-[12%] m-4 sm:w-16 sm:h-24" src="https://cdn.freebiesupply.com/logos/large/2x/css-3-logo-png-transparent.png" alt="">
+                        <img class=" w-[12%] h-[12%] m-4 sm:w-16 sm:h-24" src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" alt="">
+                    </div>
+                    <div class=" flex justify-center items-center m-">
+                        <img class=" w-[12%] h-[12%] m-4 sm:w-16 sm:h-24" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="">
+                        <img class=" w-[12%] h-[12%] m-4 sm:w-16 sm:h-24" src="https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png" alt="">
+                        <img class=" w-[12%] h-[12%] m-4 sm:w-16 sm:h-24" src="https://e7.pngegg.com/pngimages/724/306/png-clipart-c-logo-c-programming-language-icon-letter-c-blue-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

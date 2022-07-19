@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+</head>
+
+<body>
+    <div class=" flex w-auto h-screen">
+        <nav class="list absolute justify-center items-center bg-[#293462] text-xl w-1/2 text-white sm:flex-col sm:w-1/3 lg:flex lg:relative lg:text-2xl">
+            <li class=" flex-col justify-center align-middle items-center h-screen pr-6 py-28 list-none">
+                <ul class=" my-2 py-4 ml-2 cursor-pointer items-center flex hover:text-green-200 active:text-blue-500"> <a href="index.html"><img class=" inline bg-white mx-2 h-10 rounded-xl" src="home.png" alt="" srcset="">Home</a></ul>
+                <ul class=" my-2 py-4 ml-2 cursor-pointer items-center flex hover:text-green-200 active:text-blue-500"><a href="aboutMe.html"><img class=" inline bg-white mx-2 h-10 rounded-xl" src="aboutMe.png" alt="">About Me</a></ul>
+                <ul class=" my-2 py-4 ml-2 cursor-pointer items-center flex hover:text-green-200 active:text-blue-500"><a href="portfolio.html"><img class=" inline bg-white mx-2 h-10 rounded-xl" src="projects.png" alt="">My Projects</a></ul>
+                <ul class=" my-2 py-4 ml-2 cursor-pointer items-center flex hover:text-green-200 active:text-blue-500"><a href="contact.html"><img class=" inline bg-white mx-2 h-10 rounded-xl" src="contactMe.png" alt="">Contact Me</a></ul>
+            </li>
+        </nav>
+        <section class="home flex-col justify-center items-center bg-gradient-to-r from-yellow-300 to-[#FEB139] w-full h-screen pt-4 sm:flex sm:flex-row sm:p-0 lg:px-12 lg:pr-0">
+            <div class="hamburger top-0 left-0 sm:mt-[-495px] lg:hidden">
+                <img src="menu.png" alt="" srcset="" class="menu w-4 h-4 cursor-pointer absolute ml-[3%] sm:ml-3">
+                <img src="close.png" alt="" srcset="" class="close w-4 h-4 cursor-pointer absolute ml-[42%] sm:ml-[29%]">
+            </div>
+            <div class=" flex-col m-auto">
+                <h1 class=" text-8xl text-center " style="font-family: 'Source Code Pro', monospace;">Hi</h1>
+                <h1 class=" text-4xl text-center" style="font-family: 'Fira Sans', sans-serif;"> I am <div class=" px-2 text-[#293462] text-6xl font-extrabold inline"> Monson </div></h1>
+                <button class=" flex items-center align-middle my-2 mx-auto p-2 rounded-xl text-white bg-purple-500 border-2 border-purple-500 hover:bg-white hover:border-2 hover:border-purple-500  hover:text-purple-500 active:bg-slate-300">My Resume</button>
+            </div>
+            <img src="https://www.camera-rumors.com/wp-content/uploads/2018/02/sony-a7iii-sample-image-3.jpg" alt="" srcset="" class=" shadow-2xl w-64 h-64 flex justify-center items-center m-auto rounded-full border-2 border-[#D61C4E]">
+        </section>
+    </div>
+</body>
+
+</html>
