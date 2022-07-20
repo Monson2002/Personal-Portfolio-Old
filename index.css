@@ -3,3 +3,17 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+.menu{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    position: absolute;
+}
+@media (max-width:768px) {
+    .sidebarGo{
+        transform: translate(-100%, 0px);
+    }
+    .list{
+        transition: transform 0.3s ease-in;
+    }
+}
